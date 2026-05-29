@@ -1,6 +1,6 @@
 # PureHeart Case Study
 
-A four page prototype website for a fictional local community charity. Built as a portfolio case study for Rambo Web Studio.
+A four page prototype website for a fictional local community charity. Built as a portfolio case study.
 
 ---
 
