@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PureHeart | A local charity with halls to hire and causes to back</title>
+<meta name="description" content="PureHeart is a community charity. Hire one of our five multi purpose halls or support one of three live campaigns. Every booking and every pound stays in the local community.">
+<meta name="theme-color" content="#F7F1E6">
+
+<link rel="canonical" href="https://pureheart.example/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="PureHeart | A home for our community, a boost for our causes">
+<meta property="og:description" content="A local charity with five halls to hire and three live campaigns to back. Every booking and every pound stays local.">
+<meta property="og:url" content="https://pureheart.example/">
+<meta property="og:site_name" content="PureHeart">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PureHeart | A home for our community, a boost for our causes">
+<meta name="twitter:description" content="A local charity with five halls to hire and three live campaigns to back.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NGO",
+      "@id": "https://pureheart.example/#org",
+      "name": "PureHeart",
+      "url": "https://pureheart.example/",
+      "logo": "https://pureheart.example/favicon.svg",
+      "description": "A local charity organisation running five multi purpose halls for hire and three active fundraising campaigns.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Heartwood Lane",
+        "addressLocality": "Salford",
+        "addressRegion": "Greater Manchester",
+        "postalCode": "M5 4QA",
+        "addressCountry": "GB"
+      },
+      "telephone": "+44 161 555 0188",
+      "email": "hello@pureheart.example",
+      "sameAs": ["https://www.facebook.com/pureheart", "https://www.instagram.com/pureheart"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pureheart.example/#site",
+      "url": "https://pureheart.example/",
+      "name": "PureHeart",
+      "publisher": { "@id": "https://pureheart.example/#org" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is PureHeart?",
+          "acceptedAnswer": { "@type": "Answer", "text": "PureHeart is a local charity organisation. We run five multi purpose halls available for hire and three active fundraising campaigns that support the local community." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can anyone hire a hall?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Our halls are available to individuals, families, community groups, and businesses. We host weddings, classes, workshops, meetings, parties and community events." }
+        },
+        {
+          "@type": "Question",
+          "name": "How are donations used?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Every pound donated goes directly to one of our three active campaigns: Warm Winters, Food at the Heart, or Open Doors. Donors choose which cause to support." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is PureHeart a registered charity?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes, PureHeart is a registered UK charity. Our charity number is shown in the footer of every page." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I volunteer with PureHeart?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. We welcome volunteers across all three campaigns and at events held in our halls. Get in touch through the contact page and we will match you to a role that suits your time and interests." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site_header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="PureHeart home">
+      <span class="brand_mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      </span>
+      PureHeart
+    </a>
+    <button class="nav_toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary_nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <ul class="nav_links" id="primary_nav">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="halls.html">Halls</a></li>
+      <li><a href="campaigns.html">Campaigns</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="nav_cta"><a class="btn btn_primary btn_small" href="campaigns.html#donate">Donate</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero">
+    <svg class="hero_blob" viewBox="0 0 600 600" aria-hidden="true">
+      <defs>
+        <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#E07A4F" stop-opacity="0.55"/>
+          <stop offset="100%" stop-color="#E07A4F" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <path fill="url(#g1)" d="M300 80c80 0 160 40 200 120s40 180 0 240-120 80-200 80-160-40-200-100-40-180 0-240S220 80 300 80z"/>
+    </svg>
+    <svg class="hero_blob_2" viewBox="0 0 600 600" aria-hidden="true">
+      <defs>
+        <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#5B8674" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#5B8674" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <circle cx="300" cy="300" r="280" fill="url(#g2)"/>
+    </svg>
+    <div class="container hero_inner reveal">
+      <span class="hero_eyebrow_row"><span class="dot"></span> A local community charity</span>
+      <h1>A home for our community. <span class="serif_italic">A boost</span> for our causes.</h1>
+      <p class="lead">PureHeart is a local charity with five halls you can hire and three live campaigns you can back. Every booking and every pound stays in our neighbourhood.</p>
+      <div class="hero_ctas">
+        <a class="btn btn_primary" href="halls.html">Hire a hall</a>
+        <a class="btn btn_ghost" href="campaigns.html">Support a campaign</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What we do -->
+  <section id="what_we_do">
+    <div class="container">
+      <div class="section_head reveal">
+        <div class="section_head_text">
+          <span class="eyebrow">What we do</span>
+          <h2>Two ways we keep the <span class="serif_italic">community</span> close.</h2>
+        </div>
+        <p>Halls that host the moments people remember. Campaigns that help the neighbours who need it most.</p>
+      </div>
+      <div class="grid grid_3 reveal">
+        <article class="value_card">
+          <div class="value_card_icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg>
+          </div>
+          <h3>Halls for hire</h3>
+          <p>Five spaces, each with its own character. Suitable for weddings, classes, workshops, meetings and community events.</p>
+          <a class="link_arrow" href="halls.html">See the halls <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="value_card">
+          <div class="value_card_icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Live campaigns</h3>
+          <p>Three causes we are running right now. Heating, food and youth programmes for people in our area.</p>
+          <a class="link_arrow" href="campaigns.html">See the campaigns <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="value_card">
+          <div class="value_card_icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2"/><circle cx="17" cy="7" r="3"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg>
+          </div>
+          <h3>Run by the community</h3>
+          <p>Our trustees and volunteers all live within a mile of our halls. Money raised here, spent here.</p>
+          <a class="link_arrow" href="contact.html">Get involved <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Halls preview -->
+  <section style="background: var(--bg_alt);">
+    <div class="container">
+      <div class="section_head reveal">
+        <div class="section_head_text">
+          <span class="eyebrow">Our halls</span>
+          <h2>Five spaces, one community heart.</h2>
+        </div>
+        <a class="btn btn_ghost btn_small" href="halls.html">View all halls</a>
+      </div>
+      <div class="grid grid_3 reveal">
+
+        <article class="hall_card">
+          <div class="hall_media" style="background: linear-gradient(135deg, #2D5F4C, #5B8674);">
+            <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <rect width="400" height="250" fill="none"/>
+              <g stroke="#F7F1E6" stroke-width="1.5" fill="none" opacity="0.7">
+                <path d="M40 200 L200 80 L360 200 Z"/>
+                <rect x="120" y="140" width="40" height="60"/>
+                <rect x="240" y="140" width="40" height="60"/>
+              </g>
+              <text x="30" y="40" font-family="Fraunces" font-size="22" fill="#F7F1E6" opacity="0.9">01</text>
+            </svg>
+          </div>
+          <div class="hall_body">
+            <h3>The Oak Hall</h3>
+            <div class="hall_meta">
+              <span>Capacity 200</span>
+              <span>250 m²</span>
+            </div>
+            <p>Our flagship event space. Stage, sound system, full lighting and direct kitchen access.</p>
+            <div class="hall_actions">
+              <span class="hall_price">£60<span> / hour</span></span>
+              <a class="btn btn_primary btn_small" href="halls.html?hall=oak#book">Book</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hall_card">
+          <div class="hall_media" style="background: linear-gradient(135deg, #E07A4F, #F4C7B0);">
+            <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <g stroke="#F7F1E6" stroke-width="1.5" fill="none" opacity="0.8">
+                <circle cx="100" cy="140" r="50"/>
+                <circle cx="220" cy="170" r="35"/>
+                <circle cx="320" cy="120" r="60"/>
+                <path d="M0 220 Q200 180 400 220"/>
+              </g>
+              <text x="30" y="40" font-family="Fraunces" font-size="22" fill="#F7F1E6">02</text>
+            </svg>
+          </div>
+          <div class="hall_body">
+            <h3>The Garden Room</h3>
+            <div class="hall_meta">
+              <span>Capacity 80</span>
+              <span>110 m²</span>
+            </div>
+            <p>Light filled space with French doors opening onto our walled garden. Perfect for celebrations.</p>
+            <div class="hall_actions">
+              <span class="hall_price">£35<span> / hour</span></span>
+              <a class="btn btn_primary btn_small" href="halls.html?hall=garden#book">Book</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hall_card">
+          <div class="hall_media" style="background: linear-gradient(135deg, #1F4334, #2D5F4C);">
+            <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <g stroke="#F7F1E6" stroke-width="1.5" fill="none" opacity="0.7">
+                <rect x="40" y="40" width="80" height="80"/>
+                <rect x="160" y="40" width="80" height="80"/>
+                <rect x="280" y="40" width="80" height="80"/>
+                <rect x="40" y="140" width="80" height="80"/>
+                <rect x="160" y="140" width="80" height="80"/>
+                <rect x="280" y="140" width="80" height="80"/>
+              </g>
+              <text x="30" y="35" font-family="Fraunces" font-size="22" fill="#F7F1E6">03</text>
+            </svg>
+          </div>
+          <div class="hall_body">
+            <h3>The Workshop</h3>
+            <div class="hall_meta">
+              <span>Capacity 40</span>
+              <span>65 m²</span>
+            </div>
+            <p>Hard floors, paint sinks, ample storage and worktops. Built for makers and creative classes.</p>
+            <div class="hall_actions">
+              <span class="hall_price">£25<span> / hour</span></span>
+              <a class="btn btn_primary btn_small" href="halls.html?hall=workshop#book">Book</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Campaigns preview -->
+  <section>
+    <div class="container">
+      <div class="section_head reveal">
+        <div class="section_head_text">
+          <span class="eyebrow">Live campaigns</span>
+          <h2>Three causes we are running <span class="serif_italic">right now</span>.</h2>
+        </div>
+        <a class="btn btn_ghost btn_small" href="campaigns.html">All campaigns</a>
+      </div>
+      <div class="grid grid_3 reveal">
+
+        <article class="campaign_card">
+          <div class="campaign_media" style="background: linear-gradient(135deg, #E07A4F, #C5613A);">
+            <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <g stroke="#F7F1E6" stroke-width="2" fill="none" opacity="0.8">
+                <path d="M100 200 Q120 140 100 80"/>
+                <path d="M200 200 Q220 130 200 70"/>
+                <path d="M300 200 Q280 150 300 90"/>
+              </g>
+              <text x="30" y="40" font-family="Fraunces" font-size="22" fill="#F7F1E6">Warm Winters</text>
+            </svg>
+          </div>
+          <div class="campaign_body">
+            <h3>Warm Winters</h3>
+            <p>Helping vulnerable households pay their heating bills through the coldest months.</p>
+            <div>
+              <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="25000" aria-valuenow="12400" aria-label="Raised twelve thousand four hundred pounds of twenty five thousand">
+                <div class="progress_bar" data-raised="12400" data-goal="25000"></div>
+              </div>
+              <div class="progress_meta mt_4">
+                <span><strong>£12,400</strong> raised</span>
+                <span>of £25,000</span>
+              </div>
+            </div>
+            <a class="btn btn_primary btn_block mt_4" href="campaigns.html?campaign=warm_winters#donate">Donate</a>
+          </div>
+        </article>
+
+        <article class="campaign_card">
+          <div class="campaign_media" style="background: linear-gradient(135deg, #2D5F4C, #1F4334);">
+            <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <g stroke="#F7F1E6" stroke-width="2" fill="none" opacity="0.8">
+                <circle cx="120" cy="125" r="45"/>
+                <circle cx="200" cy="125" r="45"/>
+                <circle cx="280" cy="125" r="45"/>
+              </g>
+              <text x="30" y="40" font-family="Fraunces" font-size="22" fill="#F7F1E6">Food at the Heart</text>
+            </svg>
+          </div>
+          <div class="campaign_body">
+            <h3>Food at the Heart</h3>
+            <p>Stocking the community pantry so no neighbour skips a meal because of price.</p>
+            <div>
+              <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="15000" aria-valuenow="8200" aria-label="Raised eight thousand two hundred pounds of fifteen thousand">
+                <div class="progress_bar" data-raised="8200" data-goal="15000"></div>
+              </div>
+              <div class="progress_meta mt_4">
+                <span><strong>£8,200</strong> raised</span>
+                <span>of £15,000</span>
+              </div>
+            </div>
+            <a class="btn btn_primary btn_block mt_4" href="campaigns.html?campaign=food_at_heart#donate">Donate</a>
+          </div>
+        </article>
+
+        <article class="campaign_card">
+          <div class="campaign_media" style="background: linear-gradient(135deg, #5B8674, #2D5F4C);">
+            <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <g stroke="#F7F1E6" stroke-width="2" fill="none" opacity="0.8">
+                <path d="M80 200 L80 100 L120 80 L160 100 L160 200 Z"/>
+                <path d="M180 200 L180 80 L260 80 L260 200"/>
+                <path d="M280 200 L320 100 L360 200"/>
+              </g>
+              <text x="30" y="40" font-family="Fraunces" font-size="22" fill="#F7F1E6">Open Doors</text>
+            </svg>
+          </div>
+          <div class="campaign_body">
+            <h3>Open Doors</h3>
+            <p>Free after school clubs, holiday activities and mentoring for young people in our area.</p>
+            <div>
+              <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="30000" aria-valuenow="18750" aria-label="Raised eighteen thousand seven hundred and fifty pounds of thirty thousand">
+                <div class="progress_bar" data-raised="18750" data-goal="30000"></div>
+              </div>
+              <div class="progress_meta mt_4">
+                <span><strong>£18,750</strong> raised</span>
+                <span>of £30,000</span>
+              </div>
+            </div>
+            <a class="btn btn_primary btn_block mt_4" href="campaigns.html?campaign=open_doors#donate">Donate</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Numbers -->
+  <section class="numbers">
+    <div class="container">
+      <div class="grid grid_4 reveal">
+        <div class="number_item">
+          <div class="number_value">5</div>
+          <div class="number_label">Halls available</div>
+        </div>
+        <div class="number_item">
+          <div class="number_value">3</div>
+          <div class="number_label">Live campaigns</div>
+        </div>
+        <div class="number_item">
+          <div class="number_value">£39k</div>
+          <div class="number_label">Raised this year</div>
+        </div>
+        <div class="number_item">
+          <div class="number_value">17</div>
+          <div class="number_label">Years serving the community</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="container container_narrow">
+      <div class="text_center reveal">
+        <span class="eyebrow">Common questions</span>
+        <h2>Good to know.</h2>
+      </div>
+      <div class="faq_list mt_6 reveal">
+        <details class="faq_item">
+          <summary>What is PureHeart?</summary>
+          <div class="faq_body">
+            <p>PureHeart is a local charity organisation. We run five multi purpose halls available for hire and three active fundraising campaigns that support the local community.</p>
+          </div>
+        </details>
+        <details class="faq_item">
+          <summary>Can anyone hire a hall?</summary>
+          <div class="faq_body">
+            <p>Yes. Our halls are available to individuals, families, community groups and businesses. We host weddings, classes, workshops, meetings, parties and community events.</p>
+          </div>
+        </details>
+        <details class="faq_item">
+          <summary>How are donations used?</summary>
+          <div class="faq_body">
+            <p>Every pound donated goes directly to one of our three active campaigns: Warm Winters, Food at the Heart, or Open Doors. Donors choose which cause to support at checkout.</p>
+          </div>
+        </details>
+        <details class="faq_item">
+          <summary>Is PureHeart a registered charity?</summary>
+          <div class="faq_body">
+            <p>Yes, PureHeart is a registered UK charity. Our charity number is shown in the footer of every page.</p>
+          </div>
+        </details>
+        <details class="faq_item">
+          <summary>Can I volunteer with PureHeart?</summary>
+          <div class="faq_body">
+            <p>Yes. We welcome volunteers across all three campaigns and at events held in our halls. Get in touch through the contact page and we will match you to a role that suits your time and interests.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA banner -->
+  <section class="section_tight">
+    <div class="container">
+      <div class="cta_banner reveal">
+        <span class="eyebrow" style="color: var(--accent_soft);">Get in touch</span>
+        <h2>Have a question, or an event in mind?</h2>
+        <p>We answer enquiries within one working day. Pop in for tea Tuesday to Saturday, between 10 and 4.</p>
+        <a class="btn btn_primary" href="contact.html">Contact us</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site_footer">
+  <div class="container">
+    <div class="footer_grid">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand_mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </span>
+          PureHeart
+        </a>
+        <p style="margin-top: var(--s_4); color: var(--ink_mute); max-width: 28ch;">A community charity with five halls to hire and three causes to back.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="halls.html">Hire a hall</a></li>
+          <li><a href="campaigns.html">Live campaigns</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="campaigns.html#donate">Donate</a></li>
+          <li><a href="contact.html">Volunteer</a></li>
+          <li><a href="contact.html">Partner with us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find us</h4>
+        <ul>
+          <li>14 Heartwood Lane</li>
+          <li>Salford, M5 4QA</li>
+          <li><a href="tel:+441615550188">+44 161 555 0188</a></li>
+          <li><a href="mailto:hello@pureheart.example">hello@pureheart.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <span>© <span id="current_year">2026</span> PureHeart. Registered UK charity no. 1184729.</span>
+      <span>Designed and built by Rambo Web Studio.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
